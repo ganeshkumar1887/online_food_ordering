@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.try-btn {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 40px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons button {
+  margin-right: 15px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start-btn {
+  background-color: #e67e22;
+  color: white;
+}
+
+.learn-btn {
+  background-color: white;
+  color: #e67e22;
+  border: 2px solid #e67e22;
+}
+
+.testimonial-count {
+  margin-top: 30px;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  background-color: #eee;
+  height: 400px;
+  /* Replace with actual collage images */
+}
